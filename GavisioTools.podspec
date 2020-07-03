@@ -4,9 +4,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "Little Extensions and Helpers to set up a Xcode project."
 
-  s.description  = <<-DESC
-  Basic extensions for Colors, SF Symbols, Views etc..
-                   DESC
+  s.description  = "Basic extensions for Colors, SF Symbols, Views etc.."
 
   s.homepage     = "http://gavisio.de"
   s.license      = { :type => "MIT", :file => "LICENSE" }
