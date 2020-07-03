@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.swift_version = "5.0"
 
   s.source       = { :git => "https://github.com/gavisio/GavisioTools.git", :tag => "#{s.version}" }
-  s.source_files  = "Sources/GavisioTools/**/*.swift"
+  s.source_files  = "Sources/**/*.swift"
 
   s.documentation_url = ""
 
