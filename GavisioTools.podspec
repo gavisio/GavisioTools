@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "gavisio" => "design@gavisio.de" }
 
-  s.platforms = { :ios => "13.0", :osx => "10.15", :watchos => "6.0" }
+  s.platforms = { :ios => "13.0" }
   s.swift_version = "5.0"
 
   s.source       = { :git => "https://github.com/gavisio/GavisioTools.git", :tag => "#{s.version}" }
